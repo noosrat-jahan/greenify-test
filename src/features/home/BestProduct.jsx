@@ -11,7 +11,6 @@ export default function BestProduct() {
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 ">
-
         {/* product 1  */}
         <div className="flex flex-col items-center gap-5 font-lato">
           <Image
@@ -26,7 +25,9 @@ export default function BestProduct() {
             <div className="flex justify-between ">
               <div>
                 <span className="font-extrabold mr-2 text-xl">50 Rs.</span>
-                <del className="text-[16.37px] font-bold text-[#767676]">70 Rs.</del>
+                <del className="text-[16.37px] font-bold text-[#767676]">
+                  70 Rs.
+                </del>
               </div>
               <p className="text-sm font-normal underline ">235 Reviews</p>
             </div>
@@ -50,7 +51,9 @@ export default function BestProduct() {
             <div className="flex justify-between ">
               <div>
                 <span className="font-extrabold mr-2 text-xl">999 Rs.</span>
-                <del className="text-[16.37px] font-bold text-[#767676]">1199 Rs.</del>
+                <del className="text-[16.37px] font-bold text-[#767676]">
+                  1199 Rs.
+                </del>
               </div>
               <p className="text-sm font-normal underline ">729 Reviews</p>
             </div>
@@ -75,7 +78,9 @@ export default function BestProduct() {
             <div className="flex justify-between ">
               <div>
                 <span className="font-extrabold mr-2 text-xl">499 Rs.</span>
-                <del className="text-[16.37px] font-bold text-[#767676]">699 Rs.</del>
+                <del className="text-[16.37px] font-bold text-[#767676]">
+                  699 Rs.
+                </del>
               </div>
               <p className="text-sm font-normal underline ">825 Reviews</p>
             </div>
@@ -86,7 +91,6 @@ export default function BestProduct() {
         </div>
 
         {/* product 4  */}
-
 
         <div className="flex flex-col items-center gap-5 font-lato">
           <Image
@@ -101,7 +105,9 @@ export default function BestProduct() {
             <div className="flex justify-between ">
               <div>
                 <span className="font-extrabold mr-2 text-xl">99 Rs.</span>
-                <del className="text-[16.37px] font-bold text-[#767676]">149 Rs.</del>
+                <del className="text-[16.37px] font-bold text-[#767676]">
+                  149 Rs.
+                </del>
               </div>
               <p className="text-sm font-normal underline ">248 Reviews</p>
             </div>
@@ -126,7 +132,9 @@ export default function BestProduct() {
             <div className="flex justify-between ">
               <div>
                 <span className="font-extrabold mr-2 text-xl">49 Rs.</span>
-                <del className="text-[16.37px] font-bold text-[#767676]">89 Rs.</del>
+                <del className="text-[16.37px] font-bold text-[#767676]">
+                  89 Rs.
+                </del>
               </div>
               <p className="text-sm font-normal underline ">1256 Reviews</p>
             </div>
@@ -151,7 +159,9 @@ export default function BestProduct() {
             <div className="flex justify-between ">
               <div>
                 <span className="font-extrabold mr-2 text-xl">59 Rs.</span>
-                <del className="text-[16.37px] font-bold text-[#767676]">89 Rs.</del>
+                <del className="text-[16.37px] font-bold text-[#767676]">
+                  89 Rs.
+                </del>
               </div>
               <p className="text-sm font-normal underline ">895 Reviews</p>
             </div>
@@ -163,18 +173,18 @@ export default function BestProduct() {
       </div>
 
       <Link href="/pages/allproducts">
-        <button className="text-white mt-[60px] font-extrabold border-b-4 border-[#55B76B] rounded-md bg-[#333333] py-2 px-9  hover:bg-white hover:text-[#55B76B] hover:shadow-lg shadow-green-400 hover:border-[#55B76B] transition-all duration-500 ease-in-out font-lato">
+        <button className="text-white mt-[60px] font-extrabold border-b-[3px] border-[#55B76B] rounded-md bg-[#333333] py-2 px-9  hover:bg-white hover:text-[#55B76B] hover:shadow-lg shadow-green-400 hover:border-[#55B76B] transition-all duration-500 ease-in-out font-lato">
           EXPLORE MORE
         </button>
       </Link>
 
-       <Image
-              src="/images/pata2.png"
-              alt="Why Choose Greenify"
-              width={900}
-              height={1300}
-              className="absolute w-[225px] h-[338px] top-[6125px] left-[-10px] -z-10"
-            />
+      <Image
+        src="/images/pata2.png"
+        alt="Why Choose Greenify"
+        width={900}
+        height={1300}
+        className="absolute w-[225px] h-[338px] top-[6125px] left-[-10px] -z-10"
+      />
     </div>
   );
 }

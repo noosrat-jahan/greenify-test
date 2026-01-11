@@ -4,23 +4,29 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bg-[#333333] p-5 lg:p-20 text-white flex flex-col lg:flex-row justify-between gap-10 lato relative">
-
-       <Image
-            src="/images/globe.png"
-            alt="Logo"
-            width={300}
-            height={100}
-            className="absolute right-8 -top-36 z-10 w-28 h-28 md:w-44 md:h-44 lg:w-80 lg:h-80"
-          />
+    <div className="bg-[#333333] px-5 py-10 lg:p-20 text-white flex flex-col lg:flex-row justify-between gap-10 lato ">
+      <Image
+        src="/images/globe.png"
+        alt="Logo"
+        width={500}
+        height={500}
+        className="absolute right-0 top-[11300px]  w-[148px] h-[148px] md:w-44 md:h-44 lg:w-80 lg:h-80"
+      />
+      <Image
+        src="/images/leaf3.png"
+        alt="Logo"
+        width={500}
+        height={500}
+        className="absolute left-0 top-[11340px] z-0  w-[61px] h-[57px] md:w-44 md:h-44 lg:w-80 lg:h-80"
+      />
       <div className="space-y-5">
-        <div className="bg-white py-1 px-4 flex justify-center rounded-lg w-[50%] md:w-[20%] lg:w-[30%]">
+        <div className="py-1 px-[23px] z-10 flex justify-center rounded-[5px] fit-content bg-white w-[132px] h-[40px] ">
           <Image
             src="/images/logo.png"
             alt="Logo"
             width={500}
-            height={100}
-            className=" "
+            height={200}
+            className=""
           />
         </div>
         <p>Pages</p>
