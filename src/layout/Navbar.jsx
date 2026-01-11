@@ -5,11 +5,11 @@ import MobileDrawer from "./MobileDrawer";
 
 export default function Navbar() {
   return (
-    <div className="px-5 py-3 md:px-20 flex items-center justify-between ">
+    <div className="px-5 py-3 md:py-[14px]  flex items-center justify-between ">
       <div className=" gap-5 lg:gap-0 flex justify-between items-center lg:flex-none">
         <MobileDrawer></MobileDrawer>
         <Link href="/">
-          <Image src="/images/logo.png" alt="Logo" width={171} height={63} className="w-[100px] h-[37px] lg:w-[171px]" />
+          <Image src="/images/logo.png" alt="Logo" width={171} height={63} className="w-[100px] h-[37px] md:w-[143px] md:h-[53px] lg:w-[171px]" />
         </Link>
       </div>
 

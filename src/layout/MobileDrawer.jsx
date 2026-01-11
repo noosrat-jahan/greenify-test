@@ -12,7 +12,7 @@ export default function MobileDrawer() {
   return (
     <div>
       <button onClick={() => setOpen(true)}>
-        <i className="ri-menu-2-line text-2xl font-bold flex lg:hidden"></i>
+        <i className="ri-menu-2-line text-[28px] font-bold flex lg:hidden"></i>
       </button>
 
       <aside>
