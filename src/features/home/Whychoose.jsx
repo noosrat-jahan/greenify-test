@@ -1,0 +1,85 @@
+import Image from "next/image";
+import React from "react";
+
+export default function Whychoose() {
+  return (
+    <div className="mt-5 py-10 md:mt-20 text-center   w-[290px] mx-auto md:px-20 font-montserrat ">
+      <Image
+        src="/images/bulb.png"
+        alt="Greenify Hero"
+        width={300}
+        height={400}
+        className="w-[75px] h-[87px] md:w-[140] md:h-[170] lg:absolute top-[100px] left-8
+                  lg:block hidden"
+      />
+
+      <h1 className="text-[24px] text-[#333333]  md:text-3xl font-bold">
+        Why Choose Greenify?
+      </h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-10 px-[23px]">
+        <div className="flex flex-col items-center space-y-4 text-[#333333]">
+          <Image
+            src="/images/pic1.png"
+            alt="Why Choose Greenify"
+            width={110}
+            height={110}
+          />
+          <h1 className="text-[20px] font-bold">Sustainable Products</h1>
+          <p className="text-base font-lato">
+            Explore our carefully curated selection of sustainable products,
+            each designed to reduce your carbon footprint
+          </p>
+        </div>
+        <div className="flex flex-col items-center  space-y-4 text-[#333333]">
+          <Image
+            src="/images/pic2.png"
+            alt="Why Choose Greenify"
+            width={110}
+            height={110}
+          />
+          <h1 className="text-[20px] font-bold">Eco-Friendly Choices</h1>
+          <p className="text-base font-lato">
+            Make conscious choices with our eco-friendly products, knowing that
+            your purchases promote ethical sourcing and responsible
+            manufacturing practices.
+          </p>
+        </div>
+        <div className="flex flex-col items-center  space-y-4 text-[#333333]">
+          <Image
+            src="/images/pic3.png"
+            alt="Why Choose Greenify"
+            width={110}
+            height={110}
+          />
+          <h1 className="text-[20px] font-bold">High-Quality Selection</h1>
+          <p className="text-base font-lato">
+            Invest in long-lasting and reliable products that meet our stringent
+            quality standards, ensuring your satisfaction and the longevity of
+            your purchases.
+          </p>
+        </div>
+        <div className="flex flex-col items-center  space-y-4 text-[#333333]">
+          <Image
+            src="/images/pic4.png"
+            alt="Why Choose Greenify"
+            width={110}
+            height={110}
+          />
+          <h1 className="text-[20px] font-bold">Sustainable Packaging</h1>
+          <p className="text-base font-lato">
+            Our sustainable packaging ensures that your orders arrive safely
+            while minimizing their impact on the planet.
+          </p>
+        </div>
+      </div>
+
+      <Image
+        src="/images/pata.png"
+        alt="Why Choose Greenify"
+        width={900}
+        height={1300}
+        className="absolute w-[225px] h-[338px] top-[2150px] left-[165px] -z-10"
+      />
+    </div>
+  );
+}
