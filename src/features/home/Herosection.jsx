@@ -90,21 +90,21 @@ export default function Herosection() {
           />
         </div>
 
-        <div className="flex items-end w-full gap-[15px] lg:w-auto justify-between ">
+        <div className="flex items-end w-full gap-[15px] md:gap-[68px] lg:w-auto justify-between ">
           <Image
             src="/images/bulb.png"
             alt="Greenify Hero"
             width={400}
             height={500}
-            className="w-[75] h-[88] md:w-[160] md:h-[200] md:ml-24 ml-6
+            className="w-[75px] h-[88px] md:w-[166px] md:h-[194px] ml-6 md:ml-10 
             inline lg:hidden"
           />
-          <div className="w-[277px] md:mt-5 h-[347px] right-[66px] md:w-[400] md:h-[500] lg:w-[550px] lg:h-[630px] ">
+          <div className="w-[277px] md:mt-5 h-[347px] right-[66px] md:w-[452px] md:h-[530] lg:w-[550px] lg:h-[630px] ">
             <Image
               src="/images/hero.png"
               alt="Greenify Hero"
-              width={2260}
-              height={2728}
+              width={3000}
+              height={3000}
               draggable={false}
               className="w-ful h-full"
             />

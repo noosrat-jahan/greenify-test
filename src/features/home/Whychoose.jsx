@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Whychoose() {
   return (
-    <div className="mt-5 py-10 md:mt-20 text-center   w-[290px] mx-auto md:px-20 font-montserrat ">
+    <div className="mt-5 md:mt-10 text-center  px-[50px] md:px-[103px] py-10 font-montserrat ">
       <Image
         src="/images/bulb.png"
         alt="Greenify Hero"
@@ -13,10 +13,10 @@ export default function Whychoose() {
                   lg:block hidden"
       />
 
-      <h1 className="text-[24px] text-[#333333]  md:text-3xl font-bold">
+      <h1 className="text-[24px] text-[#333333]  md:text-4xl font-bold">
         Why Choose Greenify?
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-10 px-[23px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-10 mt-10 px-[23px] md:px-0">
         <div className="flex flex-col items-center space-y-4 text-[#333333]">
           <Image
             src="/images/pic1.png"
@@ -78,7 +78,7 @@ export default function Whychoose() {
         alt="Why Choose Greenify"
         width={900}
         height={1300}
-        className="absolute w-[225px] h-[338px] top-[2150px] left-[165px] -z-10"
+        className="absolute w-[225px] h-[338px] top-[2150px] left-[165px] md:w-[260px] md:h-[375px] md:top-[1755px] md:left-[483px] -z-10"
       />
     </div>
   );
