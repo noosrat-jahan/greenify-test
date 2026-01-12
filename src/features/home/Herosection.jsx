@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Herosection() {
   return (
-    <div className="lg:mt-8 lg:pl-20 mt-5 md:mt-0">
+    <div className="lg:mt-[30px] lg:pl-20 mt-5 md:mt-0">
       <div className=" flex flex-col lg:flex-row justify-between gap-[52px] md:gap-0 lg:gap-24 items-center ">
         <div
           className=" flex flex-col items-center lg:items-start text-center lg:text-left  
@@ -13,7 +13,7 @@ export default function Herosection() {
         >
           <h1 className="font-montserrat text-[#000000] leading-[50px] md:leading-[70px] lg:leading-[80px] text-[28px] md:text-5xl">
             <span className=" font-bold ">Welcome to Greenify</span> <br />
-            <span className="font-medium text-[32px] md:text-[40px]">
+            <span className="font-medium text-[32px] md:text-[40px] ">
               Your Sustainable
             </span>{" "}
             <br />
@@ -99,7 +99,7 @@ export default function Herosection() {
             className="w-[75px] h-[88px] md:w-[166px] md:h-[194px] ml-6 md:ml-10 
             inline lg:hidden"
           />
-          <div className="w-[277px] md:mt-5 h-[347px] right-[66px] md:w-[452px] md:h-[530] lg:w-[550px] lg:h-[630px] ">
+          <div className="w-[277px] md:mt-5 lg:mt-0 h-[347px] right-[66px] md:w-[452px] md:h-[530] lg:w-[565px] lg:h-[682px] ">
             <Image
               src="/images/hero.png"
               alt="Greenify Hero"

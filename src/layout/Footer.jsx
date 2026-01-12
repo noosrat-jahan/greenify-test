@@ -4,33 +4,33 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bg-[#333333] px-5 py-10 lg:p-20 text-white flex flex-col lg:flex-row justify-between gap-10 lato ">
+    <div className="bg-[#333333] px-5 py-10 lg:p-20 text-white flex flex-col md:flex-row justify-between gap-10  font-lato ">
       <Image
         src="/images/globe.png"
         alt="Logo"
         width={500}
         height={500}
-        className="absolute right-0 top-[11300px]  w-[148px] h-[148px] md:w-44 md:h-44 lg:w-80 lg:h-80"
+        className="absolute right-0 top-[11300px]  w-[148px] h-[148px] md:w-[221px] md:h-[221px] md:top-[7650px] z-10 lg:w-80 lg:h-80"
       />
       <Image
         src="/images/leaf3.png"
         alt="Logo"
         width={500}
         height={500}
-        className="absolute left-0 top-[11340px] z-0  w-[61px] h-[57px] md:w-44 md:h-44 lg:w-80 lg:h-80"
+        className="absolute left-0 top-[11340px] z-0  w-[61px] h-[57px] md:w-[111px] md:h-[103px] md:top-[7670px] lg:w-80 lg:h-80"
       />
       <div className="space-y-5">
-        <div className="py-1 px-[23px] z-10 flex justify-center rounded-[5px] fit-content bg-white w-[132px] h-[40px] ">
+        <div className="bg-white md:w-[232px] py-1 md:py-2 px-[23px] md:px-[47px] flex justify-center rounded-[5px] ">
           <Image
             src="/images/logo.png"
             alt="Logo"
             width={500}
             height={200}
-            className=""
+            className="w-[86px] h-[32px] md:w-[171px] md:h-[63px]"
           />
         </div>
         <p>Pages</p>
-        <div className="font-lato  gap-8 text-lg font-medium  items-center hidden lg:flex">
+        <div className="font-lato  gap-8 text-lg font-medium  items-center hidden md:flex">
           <Link href="/">Home</Link>
           <Link href="/shop">Shop</Link>
           <Link href="/categories" className="flex items-center">
@@ -41,10 +41,10 @@ export default function Footer() {
         </div>
 
         <div className="flex items-center gap-3">
-          <i class="ri-facebook-fill bg-white  flex justify-center items-center p-4 rounded-full text-black w-5 h-5"></i>
-          <i class="ri-instagram-line bg-white flex justify-center items-center p-4  rounded-full text-black w-5 h-5"></i>
-          <i class="ri-linkedin-fill bg-white  flex justify-center items-center p-4 rounded-full text-black w-5 h-5"></i>
-          <i class="ri-twitter-fill bg-white  flex justify-center items-center p-4 rounded-full text-black w-5 h-5"></i>
+          <i class="ri-facebook-fill bg-white  flex justify-center items-center p-4 rounded-full text-black w-5 h-5 hover:scale-90 transition-all duration-500 ease-in-out"></i>
+          <i class="ri-instagram-line bg-white flex justify-center items-center p-4  rounded-full text-black w-5 h-5 hover:scale-90 transition-all duration-500 ease-in-out"></i>
+          <i class="ri-linkedin-fill bg-white  flex justify-center items-center p-4 rounded-full text-black w-5 h-5 hover:scale-90 transition-all duration-500 ease-in-out"></i>
+          <i class="ri-twitter-fill bg-white  flex justify-center items-center p-4 rounded-full text-black w-5 h-5 hover:scale-90 transition-all duration-500 ease-in-out"></i>
         </div>
         <p>terms & services</p>
         <p>Greenify @ all right reserved 2023</p>

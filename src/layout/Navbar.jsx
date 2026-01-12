@@ -5,7 +5,7 @@ import MobileDrawer from "./MobileDrawer";
 
 export default function Navbar() {
   return (
-    <div className="px-5 py-3 md:py-[14px]  flex items-center justify-between ">
+    <div className="px-5 lg:px-20 py-3 md:py-[14px] lg:py-[35px] flex items-center justify-between ">
       <div className=" gap-5 lg:gap-0 flex justify-between items-center lg:flex-none">
         <MobileDrawer></MobileDrawer>
         <Link href="/">

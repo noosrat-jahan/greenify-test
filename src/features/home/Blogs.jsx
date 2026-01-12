@@ -11,7 +11,7 @@ export default function Blogs() {
         alt="Logo"
         width={100}
         height={100}
-        className="absolute top-[8775px] left-[247px]"
+        className="absolute md:w-[123px] md:h-[101px] top-[8775px] md:top-[5495px] left-[247px] md:left-[550px]"
       />
 
       <Image
@@ -24,7 +24,6 @@ export default function Blogs() {
       <h1 className="text-[24px]  md:text-4xl font-bold text-white">Blogs</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10 mt-10 font-lato">
-        
         <div className="bg-white rounded-[20px] flex flex-col items-end">
           <div className="flex flex-col items-center font-lato w-full">
             <Image
@@ -69,7 +68,13 @@ export default function Blogs() {
           </div>
         </div>
 
-        <div className="bg-white rounded-[20px] flex flex-col items-end">
+        <div
+          className="bg-white rounded-[20px] flex flex-col items-end  md:col-span-2 
+           md:justify-self-center 
+           md:max-w-[342px]
+           lg:col-span-1 
+           lg:max-w-none"
+        >
           <div className="flex flex-col items-center font-lato w-full">
             <Image
               src="/images/blog3.png"
