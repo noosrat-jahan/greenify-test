@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Blogs() {
   return (
-    <div className=" mt-10 md:mt-0 py-10  px-5 lg:p-16 text-center w-full text-[#333333] font-montserrat bg-[#55B76B] ">
+    <div className=" mt-10 md:mt-0 py-10 lg:py-[60px] px-5 lg:px-20 text-center w-full text-[#333333] font-montserrat bg-[#55B76B] ">
       <Image
         src="/images/wind.png"
         alt="Logo"
@@ -19,7 +19,7 @@ export default function Blogs() {
         alt="Logo"
         width={100}
         height={100}
-        className="absolute w-[38px] h-[33px] md:w-[62px] md:h-[54px] top-[8880] md:top-[5620px] left-[29px] "
+        className="absolute w-[38px] h-[33px] md:w-[62px] md:h-[54px] lg:w-[93px] lg:h-[81px] top-[8880] md:top-[5620px] lg:top-[4490px]  left-[29px] "
       />
       <h1 className="text-[24px]  md:text-4xl font-bold text-white">Blogs</h1>
 

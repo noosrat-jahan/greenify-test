@@ -20,7 +20,7 @@ export default function Reviews() {
     scrollRef.current.scrollTo({ left: width * index, behavior: "smooth" });
   };
   return (
-    <div className="  px-5 pt-10 pb-[52px] text-center w-full lg:p-10 font-montserrat  text-[#333333] ">
+    <div className="  px-5 lg:px-20 pt-10 lg:pt-[60px] pb-[52px] text-center w-full  font-montserrat  text-[#333333] ">
       <h1 className="text-[24px]  md:text-4xl font-bold">Customer Reviews</h1>
 
       {/* grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10 */}
@@ -31,7 +31,7 @@ export default function Reviews() {
       >
         {/* review 1  */}
 
-        <div className="border-2 border-[#55B76B] rounded-[20px] flex flex-col items-end p-[15px] h-max snap-center shrink-0 w-[90%] md:w-[342px] lg:w-1/3">
+        <div className="border-2 border-[#55B76B] rounded-[20px] flex flex-col items-end p-[15px] h-max snap-center shrink-0 w-[90%] md:w-[342px] lg:w-[360px]">
           <div className="w-6 h-6 rounded-full bg-[#55B76B] "></div>
           <div className="flex flex-col items-center gap-5 font-lato">
             <Image
@@ -65,7 +65,7 @@ export default function Reviews() {
 
         {/* review 2  */}
 
-        <div className="border-2 border-[#55B76B] rounded-[20px] flex flex-col items-end p-[15px] h-max snap-center shrink-0 w-[90%] md:w-[342px] lg:w-1/3 pr-5 ">
+        <div className="border-2 border-[#55B76B] rounded-[20px] flex flex-col items-end p-[15px] h-max snap-center shrink-0 w-[90%] md:w-[342px] lg:w-[360px] pr-5 ">
           <div className="w-6 h-6 rounded-full bg-[#55B76B] "></div>
           <div className="flex flex-col items-center gap-5 font-lato">
             <Image
@@ -100,7 +100,7 @@ export default function Reviews() {
 
         {/* review 3  */}
 
-        <div className="border-2 border-[#55B76B] rounded-[20px] flex flex-col items-end p-[15px] h-max snap-center shrink-0 w-[90%] md:w-[342px] lg:w-1/3">
+        <div className="border-2 border-[#55B76B] rounded-[20px] flex flex-col items-end p-[15px] h-max snap-center shrink-0 w-[90%] md:w-[342px] lg:w-[360px]">
           <div className="w-6 h-6 rounded-full bg-[#55B76B] "></div>
           <div className="flex flex-col items-center gap-5 font-lato">
             <Image

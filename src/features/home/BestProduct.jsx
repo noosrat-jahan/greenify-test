@@ -5,14 +5,14 @@ import React from "react";
 
 export default function BestProduct() {
   return (
-    <div className=" py-10 text-center w-full px-5  font-montserrat  text-[#333333]">
-      <h1 className="text-[24px]  md:text-4xl font-bold md:w-[402px] mx-auto ">
+    <div className=" py-10 lg:py-[60px] text-center w-full px-5 lg:px-[80px] font-montserrat  text-[#333333]">
+      <h1 className="text-[24px]  md:text-4xl font-bold md:w-[402px] lg:w-[720px] mx-auto ">
         Our Best-Selling Sustainable Products
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10 mt-10 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10 lg:gap-y-[50px] mt-10 lg:mt-[50px]">
         {/* product 1  */}
-        <div className="flex flex-col items-center gap-5 font-lato">
+        <div className="flex flex-col  gap-5 font-lato">
           <Image
             src="/images/product1.png"
             alt="Product 1"
@@ -21,15 +21,15 @@ export default function BestProduct() {
             className="w-[350px] h-[434px]"
           />
           <div className="text-left w-full  flex flex-col gap-5">
-            <h2 className=" text-xl  md:text-[22px] font-semibold">Organic cotton tote bag</h2>
+            <h2 className=" text-xl  md:text-[22px] lg:text-[24px] font-semibold">Organic cotton tote bag</h2>
             <div className="flex justify-between ">
               <div>
-                <span className="font-extrabold mr-2 text-xl md:text-[22px]">50 Rs.</span>
-                <del className="text-[16.37px]  font-bold text-[#767676]">
+                <span className="font-extrabold mr-2 text-xl md:text-[22px] lg:text-[24px]">50 Rs.</span>
+                <del className="text-[16.37px] lg:text-[18px]  font-bold text-[#767676]">
                   70 Rs.
                 </del>
               </div>
-              <p className="text-sm md:text-base font-normal underline ">235 Reviews</p>
+              <p className="text-sm md:text-base lg:text-[18px] font-normal underline ">235 Reviews</p>
             </div>
           </div>
           <Link href="/pages/productdetails">
@@ -38,7 +38,7 @@ export default function BestProduct() {
         </div>
 
         {/* product 2  */}
-        <div className="flex flex-col items-center gap-5 font-lato">
+        <div className="flex flex-col  gap-5 font-lato">
           <Image
             src="/images/product2.png"
             alt="Product 1"
@@ -47,15 +47,15 @@ export default function BestProduct() {
             className="w-[350px] h-[434px]"
           />
           <div className="text-left w-full  flex flex-col gap-5">
-            <h2 className=" text-xl md:text-[22px] font-semibold">Hemp backpack</h2>
+            <h2 className=" text-xl md:text-[22px] lg:text-[24px] font-semibold">Hemp backpack</h2>
             <div className="flex justify-between ">
               <div>
-                <span className="font-extrabold mr-2 text-xl  md:text-[22px]">999 Rs.</span>
-                <del className="text-[16.37px] font-bold text-[#767676]">
+                <span className="font-extrabold mr-2 text-xl  md:text-[22px] lg:text-[24px]">999 Rs.</span>
+                <del className="text-[16.37px] lg:text-[18px] font-bold text-[#767676]">
                   1199 Rs.
                 </del>
               </div>
-              <p className="text-sm md:text-base font-normal underline ">729 Reviews</p>
+              <p className="text-sm md:text-base lg:text-[18px] font-normal underline ">729 Reviews</p>
             </div>
           </div>
           <Link href="/pages/productdetails">
@@ -65,7 +65,7 @@ export default function BestProduct() {
 
         {/* product 3  */}
 
-        <div className="flex flex-col items-center gap-5 font-lato">
+        <div className="flex flex-col  gap-5 font-lato">
           <Image
             src="/images/product3.png"
             alt="Product 3"
@@ -74,15 +74,15 @@ export default function BestProduct() {
             className="w-[350px] h-[434px]"
           />
           <div className="text-left w-full  flex flex-col gap-5">
-            <h2 className=" text-xl md:text-[22px] font-semibold">Organic cotton T-shirts</h2>
+            <h2 className=" text-xl md:text-[22px] lg:text-[24px] font-semibold">Organic cotton T-shirts</h2>
             <div className="flex justify-between ">
               <div>
-                <span className="font-extrabold mr-2 text-xl md:text-[22px]">499 Rs.</span>
-                <del className="text-[16.37px] font-bold text-[#767676]">
+                <span className="font-extrabold mr-2 text-xl md:text-[22px] lg:text-[24px]">499 Rs.</span>
+                <del className="text-[16.37px] lg:text-[18px] font-bold text-[#767676]">
                   699 Rs.
                 </del>
               </div>
-              <p className="text-sm md:text-base font-normal underline ">825 Reviews</p>
+              <p className="text-sm md:text-base lg:text-[18px] font-normal underline ">825 Reviews</p>
             </div>
           </div>
           <Link href="/pages/productdetails">
@@ -92,7 +92,7 @@ export default function BestProduct() {
 
         {/* product 4  */}
 
-        <div className="flex flex-col items-center gap-5 font-lato">
+        <div className="flex flex-col  gap-5 font-lato">
           <Image
             src="/images/product4.png"
             alt="Product 4"
@@ -101,15 +101,15 @@ export default function BestProduct() {
             className="w-[350px] h-[434px]"
           />
           <div className="text-left w-full  flex flex-col gap-5">
-            <h2 className=" text-xl md:text-[22px] font-semibold">Bamboo toothbrush</h2>
+            <h2 className=" text-xl md:text-[22px] lg:text-[24px] font-semibold">Bamboo toothbrush</h2>
             <div className="flex justify-between ">
               <div>
-                <span className="font-extrabold mr-2 text-xl md:text-[22px]">99 Rs.</span>
-                <del className="text-[16.37px] font-bold text-[#767676]">
+                <span className="font-extrabold mr-2 text-xl md:text-[22px] lg:text-[24px]">99 Rs.</span>
+                <del className="text-[16.37px] lg:text-[18px] font-bold text-[#767676]">
                   149 Rs.
                 </del>
               </div>
-              <p className="text-sm  md:text-base font-normal underline ">248 Reviews</p>
+              <p className="text-sm  md:text-base lg:text-[18px] font-normal underline ">248 Reviews</p>
             </div>
           </div>
           <Link href="/pages/productdetails">
@@ -119,7 +119,7 @@ export default function BestProduct() {
 
         {/* product 5  */}
 
-        <div className="flex flex-col items-center gap-5 font-lato">
+        <div className="flex flex-col gap-5 font-lato">
           <Image
             src="/images/product5.png"
             alt="Product 5"
@@ -128,15 +128,15 @@ export default function BestProduct() {
             className="w-[350px] h-[434px]"
           />
           <div className="text-left w-full  flex flex-col gap-5">
-            <h2 className=" text-xl md:text-[22px] font-semibold">Bamboo pens and pencils</h2>
+            <h2 className=" text-xl md:text-[22px] lg:text-[24px] font-semibold">Bamboo pens and pencils</h2>
             <div className="flex justify-between ">
               <div>
-                <span className="font-extrabold mr-2 text-xl md:text-[22px]">49 Rs.</span>
-                <del className="text-[16.37px] font-bold text-[#767676]">
+                <span className="font-extrabold mr-2 text-xl md:text-[22px] lg:text-[24px]">49 Rs.</span>
+                <del className="text-[16.37px] lg:text-[18px] font-bold text-[#767676]">
                   89 Rs.
                 </del>
               </div>
-              <p className="text-sm md:text-base font-normal underline ">1256 Reviews</p>
+              <p className="text-sm md:text-base lg:text-[18px] font-normal underline ">1256 Reviews</p>
             </div>
           </div>
           <Link href="/pages/productdetails">
@@ -146,7 +146,7 @@ export default function BestProduct() {
 
         {/* product 6  */}
 
-        <div className="flex flex-col items-center gap-5 font-lato">
+        <div className="flex flex-col  gap-5 font-lato">
           <Image
             src="/images/product6.png"
             alt="Product 6"
@@ -155,15 +155,15 @@ export default function BestProduct() {
             className="w-[350px] h-[434px]"
           />
           <div className="text-left w-full  flex flex-col gap-5">
-            <h2 className=" text-xl md:text-[22px] font-semibold">Jute grocery bag</h2>
+            <h2 className=" text-xl md:text-[22px] lg:text-[24px] font-semibold">Jute grocery bag</h2>
             <div className="flex justify-between ">
               <div>
-                <span className="font-extrabold mr-2 text-xl md:text-[22px]">59 Rs.</span>
-                <del className="text-[16.37px] font-bold text-[#767676]">
+                <span className="font-extrabold mr-2 text-xl md:text-[22px] lg:text-[24px]">59 Rs.</span>
+                <del className="text-[16.37px] lg:text-[18px] font-bold text-[#767676]">
                   89 Rs.
                 </del>
               </div>
-              <p className="text-sm md:text-base font-normal underline ">895 Reviews</p>
+              <p className="text-sm md:text-base lg:text-[18px] font-normal underline ">895 Reviews</p>
             </div>
           </div>
           <Link href="/pages/productdetails">
@@ -181,9 +181,9 @@ export default function BestProduct() {
       <Image
         src="/images/pata2.png"
         alt="Why Choose Greenify"
-        width={900}
-        height={1300}
-        className="absolute w-[225px] h-[338px] top-[6125px] md:top-[3810px] left-[-10px] md:left-0 -z-10"
+        width={2000}
+        height={2000}
+        className="absolute w-[225px] h-[338px] lg:w-[310px] lg:h-[420px] top-[6125px] md:top-[3810px] lg:top-[2580px] left-[-10px] md:left-0  -z-10"
       />
     </div>
   );

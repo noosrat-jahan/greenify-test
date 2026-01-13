@@ -5,14 +5,14 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className=" py-10 p-[24px] text-center flex flex-col items-center w-full  lg:p-20 font-montserrat about text-[#333333] gap-10 relative ">
+    <div className=" py-10 lg:py-[60px]  p-[24px] text-center flex flex-col items-center w-full  lg:px-20 font-montserrat about text-[#333333] gap-10 relative ">
       {/* mobile version  */}
       <Image
         src="/images/butterfly.png"
         alt="Greenify Hero"
         width={100}
         height={100 }
-        className="w-[61px] h-[54px] md:w-[90px] md:h-[80px]  absolute top-[-25px] right-[30px] md:top-[-50px] md:right-[50px]  z-20"
+        className="w-[61px] h-[54px] md:w-[90px] md:h-[80px] lg:w-[141px] lg:h-[128px]  absolute top-[-25px] right-[30px] md:top-[-50px] md:right-[50px] lg:top-[-70px] z-20"
       />
       <div className="bg-white w-full h-full left-0 top-0 absolute opacity-90 z-0"></div>
 
@@ -66,14 +66,14 @@ export default function About() {
         alt="arrows"
         width={200}
         height={100}
-        className="absolute left-5  -bottom-8  md:-bottom-16  w-[72px] h-[69px] md:w-[118px] md:h-[114px] lg:w-44 lg:h-40"
+        className="absolute left-5  -bottom-8  md:-bottom-16  w-[72px] h-[69px] md:w-[118px] md:h-[114px] lg:w-44 lg:h-[167px]"
       />
       <Image
         src="/images/leaves.png"
         alt="Logo"
         width={200}
         height={100}
-        className="absolute right-2 -bottom-8  md:-bottom-14 w-[87px] h-[67px] md:w-[166px] md:h-[128px] lg:w-40 lg:h-40"
+        className="absolute right-2 lg:right-6 -bottom-8  md:-bottom-14 w-[87px] h-[67px] md:w-[166px] md:h-[128px] lg:w-[209px] lg:h-[161px]"
       />
     </div>
   );
