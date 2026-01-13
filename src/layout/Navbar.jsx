@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className=" gap-5 lg:gap-0 flex justify-between items-center lg:flex-none">
         <MobileDrawer></MobileDrawer>
         <Link href="/">
-          <Image src="/images/logo.png" alt="Logo" width={171} height={63} className="w-[100px] h-[37px] md:w-[143px] md:h-[53px] lg:w-[171px]" />
+          <Image src="/images/logo.png" alt="Logo" width={171} height={63} className="w-[100px] h-[37px] md:w-[143px] md:h-[63px] lg:w-[171px]" />
         </Link>
       </div>
 

@@ -39,9 +39,9 @@ export default function Herosection() {
           <Image
             src="/images/butterfly.png"
             alt="Greenify Hero"
-            width={90}
+            width={800}
             height={800}
-            className="absolute -top-20 -right-7 hidden lg:block"
+            className="absolute lg:w-[91px] lg:h-[78px] -top-20 lg:top-[190px] lg:left-[545px] -right-7 hidden lg:block"
           />
 
           {/* tablet version  */}
@@ -66,9 +66,9 @@ export default function Herosection() {
           <Image
             src="/images/minifly.png"
             alt="Greenify Hero"
-            width={55}
-            height={40}
-            className="absolute top-[380px] left-48 hidden lg:block"
+            width={51}
+            height={43}
+            className="absolute top-[660px] left-[280px] hidden lg:block"
           />
 
           {/* tablet version  */}

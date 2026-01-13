@@ -78,7 +78,7 @@ export default function Whychoose() {
         alt="Why Choose Greenify"
         width={2000}
         height={2000}
-        className="absolute w-[225px] h-[338px] top-[2150px] left-[165px] md:w-[260px] md:h-[375px] md:top-[1755px] md:left-[483px] lg:top-[1230px] lg:left-[1025px]   -z-10"
+        className="absolute w-[225px] h-[338px] top-[2150px] left-[165px] md:w-[260px] md:h-[375px] md:top-[1755px] md:left-[483px] lg:top-[1230px] lg:left-[1020px]  -z-10"
       />
     </div>
   );
