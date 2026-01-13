@@ -183,7 +183,7 @@ export default function BestProduct() {
         alt="Why Choose Greenify"
         width={2000}
         height={2000}
-        className="absolute w-[225px] h-[338px] lg:w-[310px] lg:h-[420px] top-[6125px] md:top-[3810px] lg:top-[2580px] left-[10px] md:left-0  -z-10"
+        className="absolute w-[225px] h-[338px] lg:w-[310px] lg:h-[420px] top-[6125px] md:top-[3810px] lg:top-[2580px] left-0 md:left-0  -z-10"
       />
     </div>
   );
